@@ -1,0 +1,29 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1), rgba(255, 255, 255, .5)), url('./img/bosy-bg.jpg') fixed no-repeat center;
+    background-size: cover;
+}
+
+.logo {
+    height: 100px;
+    margin-top: 20px;
+}
+
+.text-description {
+    letter-spacing: 2px;
+    font-family: sans-serif;
+    color: white;
+}
+.form-control{
+    background: transparent !important;
+    color: white !important; 
+}
+a .fab{
+    color: #fff;
+    font-size: 30px;
+    margin: 0 10px;
+}
